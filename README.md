@@ -16,6 +16,7 @@ This is a console application which instructs a robot to move around a 5x5 grid.
  - Import of test data via .txt file
  - Functional application for user input
 
+*Prerequisite: OS must have cmake installed*
 # How to build and run application
  1. Clone project and navigate to the directory
  2. Create **build** folder in directory ```cmake -S . -B build```
