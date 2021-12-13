@@ -21,7 +21,7 @@ I have included ToyRobotCodeChallenge.zip with a built .exe for Windows users wh
 without compiling with G++ or GCC. Use the same console args below to run unit tests and test data.
 
 # How to build and run application
-*Prerequisite: OS must have cmake and latest GCC or G++ compiler installed*
+*Prerequisite: OS must have cmake and compile with latest GCC or G++*
  1. Clone project and navigate to the directory
  2. Create **build** folder in directory ```cmake -S . -B build```
  3. Build project ```cmake --build build```
