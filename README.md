@@ -17,7 +17,7 @@ This is a console application which instructs a robot to move around a 5x5 grid.
  - Functional application for user input
 
 # How to build and run application
-*Prerequisite: OS must have cmake and latest GCC installed*
+*Prerequisite: OS must have cmake and latest GCC or G++ compiler installed*
  1. Clone project and navigate to the directory
  2. Create **build** folder in directory ```cmake -S . -B build```
  3. Build project ```cmake --build build```
