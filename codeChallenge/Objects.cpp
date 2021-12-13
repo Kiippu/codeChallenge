@@ -135,8 +135,8 @@ namespace object
         // build a sting for the position and rotation
         std::string result;
         auto position = m_transform.getPosition();
-        uint x = position.x;
-        uint y = position.x;
+        unsigned x = position.x;
+        unsigned y = position.x;
         auto rotationStr = type::headingMap.at(getRotation());
         result.append(std::to_string(position.x)).append(",");
         result.append(std::to_string(position.y)).append(",");
