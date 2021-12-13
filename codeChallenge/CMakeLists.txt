@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 3.0.0)
+set(CMAKE_C_COMPILER "gcc")
+set(CMAKE_CXX_COMPILER "g++")
 project(ToyRobotCodeChallenge VERSION 0.1.0)
 
 file( GLOB SOURCES "*.cpp")
