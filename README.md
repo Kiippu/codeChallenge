@@ -1,8 +1,8 @@
 # codeChallenge
-A C++ coding challenge requested from a potential employer
+A C++ coding challenge requested by a potential employer
 
 # Description
-This a console application which instructs a robot to move around a 5x5 grid. It can have it's position and rotation changed via user input.
+This is a console application which instructs a robot to move around a 5x5 grid. It can have it's position and rotation changed via user input.
 
 # Constraints
  - Robot cannot fall off 5x5 table top
