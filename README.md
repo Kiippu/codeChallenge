@@ -16,6 +16,10 @@ This is a console application which instructs a robot to move around a 5x5 grid.
  - Import of test data via .txt file
  - Functional application for user input
 
+# Windows User - ToyRobotCodeChallenge.rar 
+I have included ToyRobotCodeChallenge.zip with a built .exe for Windows users who want to run the application without compiling with G++ or GCC
+Use the same console args below to run unit tests and test data.
+
 # How to build and run application
 *Prerequisite: OS must have cmake and latest GCC or G++ compiler installed*
  1. Clone project and navigate to the directory
