@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
     // create base object states
     const object::TableTop tableTop(TABLE_TOP_X, TABLE_TOP_Y);
     // get player robot from map
-    object::ToyRobot player = tableTop.getPlayer();
+    object::ToyRobot& player = tableTop.getPlayer();
     // run tests
     if(argc > 1)
     {
