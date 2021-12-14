@@ -98,6 +98,8 @@ namespace object
 
     public:
         ToyRobot();
+        ToyRobot(const ToyRobot&) = delete;
+        void operator=(const ToyRobot&) = delete;
     private:
 
         /**
