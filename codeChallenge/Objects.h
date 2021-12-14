@@ -57,6 +57,7 @@ namespace object
     public:
 
         InputHandler(){};
+        virtual ~InputHandler(){};
 
         /**
          * @brief process strinified commands
